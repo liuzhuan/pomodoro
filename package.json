@@ -1,0 +1,29 @@
+{
+  "name": "liuz-pomodoro",
+  "version": "0.0.1",
+  "description": "A little pomodoro living inside terminal",
+  "preferGlobal": true,
+  "bin": {
+    "liuz-pomodoro": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzhuan/pomodoro.git"
+  },
+  "keywords": [
+    "pomodoro"
+  ],
+  "author": "liuzhuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuzhuan/pomodoro/issues"
+  },
+  "homepage": "https://github.com/liuzhuan/pomodoro#readme",
+  "dependencies": {
+    "log-update": "^2.3.0",
+    "node-notifier": "^5.2.1"
+  }
+}

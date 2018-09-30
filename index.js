@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const notifier = require("node-notifier");
 const path = require("path");
 const logUpdate = require("log-update");
